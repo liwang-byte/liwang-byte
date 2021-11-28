@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "summary": "A short description of test.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liwang-byte/test",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liwang-byte": "liwang06@58.com"
+  },
+  "source": {
+    "git": "https://github.com/liwang-byte/test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "test/Classes/**/*"
+}

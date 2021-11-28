@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'test'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '啥红红火火.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,9 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'test/Classes/**/*'
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
   
   # s.resource_bundles = {
   #   'test' => ['test/Assets/*.png']

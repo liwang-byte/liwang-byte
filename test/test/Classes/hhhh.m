@@ -9,4 +9,8 @@
 
 @implementation hhhh
 
+- (void)tttt;{
+    NSLog(@"2222222");
+}
+
 @end

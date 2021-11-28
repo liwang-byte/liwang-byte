@@ -11,8 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface hhhh : NSObject
 
-- (void)tttt;
-
 @end
 
 NS_ASSUME_NONNULL_END
